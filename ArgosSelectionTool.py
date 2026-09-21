@@ -31,7 +31,7 @@ timestamp = line_data[2]  # Observation date ("timestamp")
 lat = line_data[4]        # Observation latitude  ("location-lat")
 lon = line_data[3]        # Observation longitude ("location-lon")
 lc  = line_data[14]        # Observation location class ("argos:lc")
-tag_id = line_data[-3]     # Tag identifier ("tag-local-identifier")
+tag_id = line_data[34]     # Tag identifier ("tag-local-identifier")
 
 lat = float(line_data[4])        # Observation latitude  ("location-lat")
 lon = float(line_data[3])        # Observation longitude ("location-lon")
